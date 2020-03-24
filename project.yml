@@ -1,0 +1,6 @@
+metadata:
+  name: streaming-service
+  image: hub.docker.com/ahab94/streaming-service
+  import: github.com/ahab94/streaming-service
+  build:
+  - target: cmd/stream-server
